@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/simon/.conan/data/expected/0.3/slepasteur/testing/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include/tl/expected.hpp
+exception
+-
+functional
+-
+type_traits
+-
+utility
+-
+
+/home/simon/Documents/OnSphere/conan-expected/test_package/test_package.cpp
+cstdlib
+-
+iostream
+-
+tl/expected.hpp
+/home/simon/Documents/OnSphere/conan-expected/test_package/tl/expected.hpp
+
